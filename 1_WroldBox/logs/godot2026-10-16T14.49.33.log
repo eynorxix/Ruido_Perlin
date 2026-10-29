@@ -1,0 +1,42 @@
+Godot Engine v4.7.2.stable.arch_linux.ed1daf0bf (2026-08-17 01:18:38 UTC) - https://godotengine.org
+
+--- perfiles (migrados del JSON) ---
+  { "id": 1, "nombre": "SANTA", "creado": "2026-09-25T17:11:18", "actualizado": "<null>" }
+  { "id": 2, "nombre": "DAVID", "creado": "2026-09-25T17:26:43", "actualizado": "<null>" }
+actual = { "id": 2, "nombre": "DAVID", "creado": "2026-09-25T17:26:43", "actualizado": "<null>" }
+display_name = DAVID
+--- crear perfil ---
+  { "ok": true, "jugador": { "id": 3, "nombre": "CARLA", "creado": "2026-10-16T14:49:22" } }
+  id_carla=3
+--- duplicado ---
+  { "ok": false, "error": "Ya existe un jugador con ese nombre." }
+--- renombrar ---
+  { "ok": true, "jugador": { "id": 3, "nombre": "CARLA B.", "actualizado": "2026-10-16T14:49:23" } }
+--- accion / progreso / logro ---
+  id_partida=1
+  registrar_accion=true
+ERROR: GameDB: accion desconocida 'no_existe'
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] registrar_accion (res://Scenes/Scripst/game_db.gd:101)
+       [1] _init (res://_dbtest.gd:32)
+  accion desconocida=false
+  guardar_indicador=true
+  completar_objetivo=true
+  marcar_evento=true
+  otorgar_logro=true
+  guardar_progreso=true
+--- consultas de verificacion ---
+ERROR:  --> SQL error: no such column: r.codigo
+   at: prepare_statement (src/gdsqlite.cpp:259)
+   GDScript backtrace (most recent call first):
+       [0] consultar (res://Scenes/Scripst/game_db.gd:75)
+       [1] _init (res://_dbtest.gd:40)
+  registro_accion: []
+  logros: [{ &"codigo": "primer_paso" }]
+  partida: [{ &"id_partida": 1, &"nombre": "Partida 1", &"progreso": 0.35, &"pos_x": 1.0 }]
+--- eliminar perfil (cascade) ---
+  { "ok": true, "jugador": { "id": 3, "nombre": "CARLA B." } }
+  partidas restantes=[{ &"n": 0 }]
+  registro restante=[{ &"n": 0 }]
+  perfiles=2

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Árbol de Problemas — Modelo de Base de Datos</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#ffffff;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .wrap { max-width:1280px; margin:0 auto; padding:36px 20px 20px; text-align:center; }
+  h1 {
+    font-size:30px;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  .sub { font-size:14px; letter-spacing:1px; color:#000; margin-bottom:6px; }
+  .note { font-size:12px; font-style:italic; color:#555; margin-bottom:8px; }
+  .rule { width:180px; height:2px; background:#000; margin:16px auto 22px; }
+  svg { width:100%; height:auto; display:block; }
+  footer { margin-top:14px; font-size:11px; color:#777; letter-spacing:1px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Árbol de Problemas</h1>
+  <div class="sub">Persistencia y gestión de datos · Videojuego con IA reactiva para educación ambiental</div>
+  <div class="note">Documento base: Modelo_Base_de_Datos.md — motor SQLite 3 embebido, local, sin servidor ni internet</div>
+  <div class="rule"></div>
+
+  <svg viewBox="0 0 1280 1110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Árbol de problemas del modelo de base de datos: causas, problema central y efectos">
+    <style>
+      .nodo { fill:#ffffff; stroke:#000000; stroke-width:1.5; }
+      .causa rect { fill:#f5f5f5; }
+      .sol rect { fill:#ffffff; }
+      .tronco rect { fill:#ffffff; stroke:#000000; stroke-width:2; }
+      .rama { stroke:#000000; stroke-width:1.5; fill:none; }
+      .etiq { font-size:11px; font-style:italic; fill:#666; letter-spacing:2px; }
+      .t_meta { text-anchor:middle; fill:#000; }
+      .paso circle { fill:#000; stroke:none; }
+      .paso text { fill:#fff; font-size:11px; font-weight:bold; }
+      .flecha { fill:#000; }
+    </style>
+
+    <!-- ===== COPA / EFECTOS ===== -->
+    <text x="640" y="128" text-anchor="middle" class="etiq">EFECTOS — COPA (consecuencias del problema)</text>
+
+    <g class="nodo"><rect x="60" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12" x="150"><tspan x="150" y="189">Pérdida o corrupción</tspan><tspan x="150" y="206">del progreso e ítems</tspan><tspan x="150" y="223">del jugador</tspan></text>
+    </g>
+    <g class="nodo"><rect x="260" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12" x="350"><tspan x="350" y="189">Datos huérfanos</tspan><tspan x="350" y="206">e inconsistentes</tspan><tspan x="350" y="223">(perfiles y partidas)</tspan></text>
+    </g>
+    <g class="nodo"><rect x="460" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12" x="550"><tspan x="550" y="189">Imposible evaluar</tspan><tspan x="550" y="206">el impacto ambiental</tspan><tspan x="550" y="223">de las decisiones</tspan></text>
+    </g>
+    <g class="nodo"><rect x="660" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12" x="750"><tspan x="750" y="189">Sin analítica multi-</tspan><tspan x="750" y="206">dimensional del</tspan><tspan x="750" y="223">aprendizaje (cubo)</tspan></text>
+    </g>
+    <g class="nodo"><rect x="860" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12" x="950"><tspan x="950" y="189">Información en texto</tspan><tspan x="950" y="206">plano manipulable</tspan><tspan x="950" y="223">(no cumple ISO)</tspan></text>
+    </g>
+    <g class="nodo"><rect x="1060" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12" x="1150"><tspan x="1150" y="189">Decisiones sin</tspan><tspan x="1150" y="206">historial ni evidencia</tspan><tspan x="1150" y="223">que las sustente</tspan></text>
+    </g>
+
+    <!-- ramas secundarias -->
+    <g class="rama">
+      <path d="M250,513 L150,160"/>
+      <path d="M250,513 L350,160"/>
+      <path d="M640,513 L550,160"/>
+      <path d="M640,513 L750,160"/>
+      <path d="M1030,513 L950,160"/>
+      <path d="M1030,513 L1150,160"/>
+    </g>
+
+    <!-- nudos de rama -->
+    <g class="nodo"><rect x="160" y="465" width="180" height="48" rx="6"/>
+      <text class="t_meta" font-size="10.5" x="250" y="494">INTEGRIDAD DE DATOS</text>
+    </g>
+    <g class="nodo"><rect x="550" y="465" width="180" height="48" rx="6"/>
+      <text class="t_meta" font-size="10.5" x="640" y="494">MEDICIÓN Y ANÁLISIS</text>
+    </g>
+    <g class="nodo"><rect x="940" y="465" width="180" height="48" rx="6"/>
+      <text class="t_meta" font-size="9.5" x="1030" y="494">SEGURIDAD Y TRAZABILIDAD</text>
+    </g>
+
+    <!-- tronco / ramas principales -->
+    <g class="rama">
+      <path d="M640,595 L250,475"/>
+      <path d="M640,595 L640,475"/>
+      <path d="M640,595 L1030,475"/>
+    </g>
+
+    <!-- ===== TRONCO / PROBLEMA CENTRAL ===== -->
+    <text x="640" y="575" text-anchor="middle" class="etiq">PROBLEMA — TRONCO (problema central)</text>
+    <g class="tronco"><rect x="370" y="595" width="540" height="112" rx="8"/>
+      <text class="t_meta" x="640">
+        <tspan x="640" y="617" font-weight="bold" font-size="15" letter-spacing="2">PROBLEMA CENTRAL</tspan>
+        <tspan x="640" y="640" font-size="13.5">El videojuego no cuenta con un modelo de datos</tspan>
+        <tspan x="640" y="658" font-size="13.5">confiable que garantice la integridad del progreso</tspan>
+        <tspan x="640" y="676" font-size="13.5">ni la medición del impacto ambiental del jugador</tspan>
+      </text>
+    </g>
+
+    <!-- suelo -->
+    <line x1="70" y1="720" x2="1210" y2="720" stroke="#000" stroke-width="1.5"/>
+
+    <!-- ===== RAÍCES / CAUSAS ===== -->
+    <text x="640" y="757" text-anchor="middle" class="etiq">CAUSAS — RAÍCES</text>
+
+    <!-- conexiones de raíces -->
+    <g class="rama">
+      <path d="M205,772 L520,716"/>
+      <path d="M490,772 L600,716"/>
+      <path d="M790,772 L680,716"/>
+      <path d="M1075,772 L760,716"/>
+    </g>
+
+    <g class="nodo causa"><rect x="80" y="772" width="250" height="116" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="205"><tspan x="205" y="805">El progreso se guardaba</tspan><tspan x="205" y="822">en archivos JSON de texto</tspan><tspan x="205" y="839">plano, manipulables y</tspan><tspan x="205" y="856">sin transacciones</tspan></text>
+    </g>
+    <g class="nodo causa"><rect x="365" y="772" width="250" height="116" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="490"><tspan x="490" y="805">Sin integridad referencial:</tspan><tspan x="490" y="822">no existen claves foráneas</tspan><tspan x="490" y="839">ni borrado en cascada</tspan><tspan x="490" y="856">entre las tablas</tspan></text>
+    </g>
+    <g class="nodo causa"><rect x="665" y="772" width="250" height="116" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="790"><tspan x="790" y="805">Sin normalización ni</tspan><tspan x="790" y="822">catálogos: datos</tspan><tspan x="790" y="839">duplicados, redundantes</tspan><tspan x="790" y="856">y difíciles de consultar</tspan></text>
+    </g>
+    <g class="nodo causa"><rect x="950" y="772" width="250" height="116" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="1075"><tspan x="1075" y="805">Sin registro de decisiones</tspan><tspan x="1075" y="822">ni series del entorno;</tspan><tspan x="1075" y="839">sin criterios de seguridad</tspan><tspan x="1075" y="856">ni respaldo (ISO 27001/02)</tspan></text>
+    </g>
+
+    <!-- ===== SOLUCIÓN: MODELO RELACIONAL ===== -->
+    <text x="640" y="945" text-anchor="middle" font-size="14" font-weight="bold" letter-spacing="3">SOLUCIÓN — MODELO RELACIONAL EMBEBIDO (SQLite 3)</text>
+
+    <g class="paso"><circle cx="180" cy="962" r="8"/><text x="180" y="966" text-anchor="middle">1</text></g>
+    <g class="nodo sol"><rect x="85" y="972" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12" x="180"><tspan x="180" y="1007" font-weight="bold">Motor SQLite 3</tspan><tspan x="180" y="1024">embebido y local</tspan><tspan x="180" y="1041">(sin servidor ni internet)</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="415" cy="962" r="8"/><text x="415" y="966" text-anchor="middle">2</text></g>
+    <g class="nodo sol"><rect x="320" y="972" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12" x="415"><tspan x="415" y="1007" font-weight="bold">Integridad</tspan><tspan x="415" y="1024">PK/FK con ON DELETE</tspan><tspan x="415" y="1041">CASCADE y SET NULL</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="650" cy="962" r="8"/><text x="650" y="966" text-anchor="middle">3</text></g>
+    <g class="nodo sol"><rect x="555" y="972" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12" x="650"><tspan x="650" y="1007" font-weight="bold">Normalización</tspan><tspan x="650" y="1024">1FN–3FN: catálogos</tspan><tspan x="650" y="1041">vs. tablas de hechos</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="885" cy="962" r="8"/><text x="885" y="966" text-anchor="middle">4</text></g>
+    <g class="nodo sol"><rect x="790" y="972" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12" x="885"><tspan x="885" y="1007" font-weight="bold">Historial</tspan><tspan x="885" y="1024">registro_accion e</tspan><tspan x="885" y="1041">indicador_ambiental</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="1120" cy="962" r="8"/><text x="1120" y="966" text-anchor="middle">5</text></g>
+    <g class="nodo sol"><rect x="1025" y="972" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12" x="1120"><tspan x="1120" y="1007" font-weight="bold">Índices + ROLAP</tspan><tspan x="1120" y="1024">cubo analítico y</tspan><tspan x="1120" y="1041">respaldo (ISO)</tspan></text>
+    </g>
+
+    <!-- flechas entre componentes -->
+    <g class="flecha">
+      <line x1="280" y1="1022" x2="297" y2="1022" stroke="#000" stroke-width="1.5"/>
+      <polygon points="298,1016 312,1022 298,1028"/>
+      <line x1="515" y1="1022" x2="532" y2="1022" stroke="#000" stroke-width="1.5"/>
+      <polygon points="533,1016 547,1022 533,1028"/>
+      <line x1="750" y1="1022" x2="767" y2="1022" stroke="#000" stroke-width="1.5"/>
+      <polygon points="768,1016 782,1022 768,1028"/>
+      <line x1="985" y1="1022" x2="1002" y2="1022" stroke="#000" stroke-width="1.5"/>
+      <polygon points="1003,1016 1017,1022 1003,1028"/>
+    </g>
+
+    <text x="640" y="1098" text-anchor="middle" font-size="13" font-style="italic">El modelo relacional normalizado reemplaza la persistencia en texto plano y habilita la medición del impacto ambiental</text>
+  </svg>
+
+  <footer>Árbol de problemas · Modelo de Base de Datos (SQLite 3) · Videojuego con IA reactiva para educación ambiental</footer>
+</div>
+</body>
+</html>

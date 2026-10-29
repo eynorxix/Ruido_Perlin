@@ -1,0 +1,287 @@
+<mxfile host="Electron" agent="Claude">
+  <diagram name="Mapa Conceptual - El Jardinero de Nadie" id="mapa-conceptual">
+    <mxGraphModel dx="2580" dy="3353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A4D2E;fontColor=#FFFFFF;fontStyle=1;fontSize=18;strokeWidth=2;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot; class=&quot;docData;DOCY;v5;1446;BQiAAgAAEYQCAAAGiAIAAAPfBAAABe0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUwIAAABOAgAAAS0AAAABBhIAAAAkBAAAAAAlBAAAAAAmBAAAAAAFAQIJBgAAAAAaBgYAAAAAAQEUAQECDgIAAAVkAAAAAQkAAAAAAQEUAQEYAQAIUQAAAABMAAAASQBEAEUATwBKAFUARQBHAE8AIABDAE8ATgAgAEkATgBUAEUATABJAEcARQBOAEMASQBBACAAIABBAFIAVABJAEYASQBDAEkAQQBMAAW0AAAAARkAAAAAAQEUAQEYAQAZBgoAAABlAG4ALQBVAFMACJEAAAAAjAAAACAAUQBVAEUAIABQAEUAUgBNAEkAVABBACAAUgBFAFAAUgBFAFMARQBOAFQAQQBSACAATABBACAAQwBPAE4AUwBFAEMAVQBFAE4AQwBJAEEAIABEAEUAIABMAEEAUwAgAEQARQBDAEkAUwBJAE8ATgBFAFMAIABEAEUATAAgAFUAUwBVAEEAUgBJAE8ABRoAAAABCQAAAAABARQBARgBAAgHAAAAAAIAAAAgAAWqAAAAARkAAAAAAQEUAQEYAQAZBgoAAABlAG4ALQBVAFMACIcAAAAAggAAAFMATwBCAFIARQAgACAARQBMACAARQBOAFQATwBSAE4ATwAgAFYASQBSAFQAVQBBAEwAIABDAE8ATgAgAEwAQQAgAEYASQBOAEEATABJAEQAQQBEACAARABFACAARQBEAFUAQwBBAEMASQBPAE4AIABBAE0AQgBJAEUATgBUAEEATAAFCgAAAAEAAAAACAAAAAAFCgAAAAgFAAAADQAAAAAfBAAAAEOutmgKAAAAAAAAAAARAAAAALUAAAAALQAAAAEGAAAAAAkGGwAAACcEFAEAAAsBARwBACgEAAAAAB0BACkEyAAAABsGAAAAAAF5AAAABAYKAAAAQQByAGkAYQBsAAUGCgAAAEEAcgBpAGEAbAAHBgoAAABBAHIAaQBhAGwABgYKAAAAQQByAGkAYQBsABMBAQgEFgAAABYEFgAAABkGBAAAAGUAcwAaBgoAAABhAHIALQBTAEEAGwYKAAAAegBoAC0AQwBOAAIAAAAA&quot;&gt;&lt;b style=&quot;&quot;&gt;VIDEOJUEGO CON INTELIGENCIA&amp;nbsp; ARTIFICIAL&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;b&gt; QUE PERMITA REPRESENTAR LA CONSECUENCIA DE LAS DECISIONES DEL USUARIO&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;b style=&quot;&quot;&gt;SOBRE&amp;nbsp; EL ENTORNO VIRTUAL CON LA FINALIDAD DE EDUCACION AMBIENTAL&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="1140" x="430" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="datos" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;fontStyle=1;align=left;strokeColor=#2E7D32;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Postulante: Brayan Quispe Mamani&lt;br&gt;Tutor/Revisor: Ing. Marisol Arguedas Balladares&lt;br&gt;Universidad Privada Franz Tamayo - Ing. Sistemas&lt;br&gt;El Alto - Bolivia, 2025&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="500" x="750" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="titulo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=1;" target="datos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="introduccion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D32F2F;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;INTRODUCCIÓN&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="800" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="datos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=1;" target="introduccion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="intro1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Fomentar conciencia ambiental&lt;br&gt;mediante videojuego interactivo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="intro2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;align=center;arcSize=0;" value="Visualizar consecuencias&#xa;de decisiones en el entorno" vertex="1">
+          <mxGeometry height="60" width="200" x="710" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="intro3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Aprendizaje práctico vs&lt;br&gt;teoría ambiental&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1400" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeIntro1" edge="1" parent="1" source="introduccion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="intro1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="270" />
+              <mxPoint x="750" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeIntro2" edge="1" parent="1" source="introduccion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="intro2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeIntro3" edge="1" parent="1" source="introduccion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="intro3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="270" />
+              <mxPoint x="1250" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6ARAXbOLYoUxJAo6oQT-10" edge="1" parent="1" source="objetivos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="objGeneral">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="objetivos" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;OBJETIVOS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="800" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="introduccion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=1;" target="objetivos">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="objGeneral" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;fontStyle=1;strokeColor=#1565C0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;OBJETIVO GENERAL&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="objGenDesc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F9FF;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Desarrollar un sistema de videojuego&lt;br&gt;en 3D con IA reactiva para fomentar&lt;br&gt;la conciencia y educación ambiental&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeObjGen2" edge="1" parent="1" source="objGeneral" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="objGenDesc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6ARAXbOLYoUxJAo6oQT-13" edge="1" parent="1" source="objEsp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oe3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="objEsp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;fontStyle=1;strokeColor=#1565C0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;OBJETIVOS ESPECÍFICOS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="1390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeObjEsp1" edge="1" parent="1" source="objetivos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="objEsp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oe1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F9FF;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1. Analizar y diseñar mecánicas&lt;br&gt;e interfaces intuitivas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1220" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="oe2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F9FF;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;2. Implementar IA reactiva&lt;br&gt;para flora, fauna y agentes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1200" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="oe3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F9FF;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;3. Construir entornos 3D&lt;br&gt;con degradación y recuperación&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1440" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="oe4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F9FF;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;4. Optimizar para computadoras&lt;br&gt;de gama media/baja&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1560" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeOE1" edge="1" parent="1" source="objEsp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="oe1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="560" />
+              <mxPoint x="1320" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeOE2" edge="1" parent="1" source="objEsp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="oe2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeOE4" edge="1" parent="1" source="objEsp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="oe4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="problema" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F57C00;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;PROBLEMA QUE RESUELVE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="150" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="objetivos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" target="problema">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="670" />
+              <mxPoint x="350" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prob1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;align=center;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Enseñanza ambiental&lt;br&gt;demasiado teórica&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="100" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="prob2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;No se visualiza relación&lt;br&gt;entre acción y consecuencia&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="370" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="prob3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Entorno responde visualmente&lt;br&gt;en tiempo real&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="190" y="1555" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeProb1" edge="1" parent="1" source="problema" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="prob1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="1390" />
+              <mxPoint x="190" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeProb2" edge="1" parent="1" source="problema" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="prob2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="1390" />
+              <mxPoint x="400" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeProb3" edge="1" parent="1" source="problema" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="prob3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="1420" />
+              <mxPoint x="340" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6ARAXbOLYoUxJAo6oQT-6" edge="1" parent="1" source="tecnicos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="metodologia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tecnicos" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6A1B9A;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="ASPECTOS TÉCNICOS Y TECNOLÓGICOS" vertex="1">
+          <mxGeometry height="50" width="450" x="760" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="tec1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Motor: Godot Engine&lt;br&gt;Lenguaje: GDScript&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="600" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="tec2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Diseño 3D: Blender&lt;br&gt;(modelado, rigging, animación)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="790" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="tec3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IA Reactiva +&lt;br&gt;Aprendizaje por acciones&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="980" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="tec4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;100% Offline&lt;br&gt;Para PCs educativas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="790" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeTec1" edge="1" parent="1" source="tecnicos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="tec1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="1440" />
+              <mxPoint x="685" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeTec2" edge="1" parent="1" source="tecnicos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="tec2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeTec3" edge="1" parent="1" source="tecnicos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="tec3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="1440" />
+              <mxPoint x="1065" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeTec4" edge="1" parent="1" source="tecnicos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="tec4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="1400" />
+              <mxPoint x="1190" y="1400" />
+              <mxPoint x="1190" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juego" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;¿DE QUÉ TRATA EL JUEGO?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="1080" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="objetivos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" target="juego">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="690" />
+              <mxPoint x="1450" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jue1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Mundo post-apocalíptico&lt;br&gt;Abandonado&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="1030" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="jue2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Protagonista: Autómata&lt;br&gt;5% de batería&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="1305" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="jue3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Mundo 3D Sandbox&lt;br&gt;Recolectar, fabricar, construir&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="1125" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="jue4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Entorno reacciona según&lt;br&gt;decisiones del jugador&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="1125" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeJue1" edge="1" parent="1" source="juego" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="880" />
+              <mxPoint x="1115" y="880" />
+            </Array>
+            <mxPoint x="1115" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeJue2" edge="1" parent="1" source="juego" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="jue2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="880" />
+              <mxPoint x="1305" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeJue3" edge="1" parent="1" source="juego" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="jue3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeJue4" edge="1" parent="1" source="jue3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="jue4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="metodologia" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;METODOLOGÍA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="1325" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="met1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Scrum (Ágil)&lt;br&gt;Sprints e historias de usuario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="1200" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="met2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;UCD - Diseño Centrado&lt;br&gt;en el Usuario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="1450" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="met3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;UML (Casos de Uso,&lt;br&gt;Clases, Secuencia, Actividades)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="1655" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeMet1" edge="1" parent="1" source="metodologia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1535" y="1470" />
+              <mxPoint x="1270" y="1470" />
+            </Array>
+            <mxPoint x="1270" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeMet2" edge="1" parent="1" source="metodologia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="met2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeMet3" edge="1" parent="1" source="metodologia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=1;endArrow=block;endFill=1;" target="met3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1535" y="1470" />
+              <mxPoint x="1810" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6ARAXbOLYoUxJAo6oQT-5" edge="1" parent="1" source="oe2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oe2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6ARAXbOLYoUxJAo6oQT-9" edge="1" parent="1" source="objetivos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" target="tecnicos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovBzZYrjlSGXoM7zt8zj-1" edge="1" parent="1" source="met2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="met2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

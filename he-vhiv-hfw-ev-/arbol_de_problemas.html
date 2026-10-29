@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Árbol de Problemas — Recolección de Datos (Playtesting)</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#ffffff;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .wrap { max-width:1280px; margin:0 auto; padding:36px 20px 20px; text-align:center; }
+  h1 {
+    font-size:30px;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  .sub { font-size:14px; letter-spacing:1px; color:#000; margin-bottom:6px; }
+  .note { font-size:12px; font-style:italic; color:#555; margin-bottom:8px; }
+  .rule { width:180px; height:2px; background:#000; margin:16px auto 22px; }
+  svg { width:100%; height:auto; display:block; }
+  footer { margin-top:14px; font-size:11px; color:#777; letter-spacing:1px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Árbol de Problemas</h1>
+  <div class="sub">Recolección de datos mediante playtesting · Videojuego con IA reactiva para educación ambiental</div>
+  <div class="note">Población objetivo: estudiantes de secundaria — desde 1° de secundaria (13 años en adelante)</div>
+  <div class="rule"></div>
+
+  <svg viewBox="0 0 1280 1130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Árbol de problemas: causas, método y efectos de la recolección de datos mediante playtesting">
+    <style>
+      .nodo { fill:#ffffff; stroke:#000000; stroke-width:1.5; }
+      .causa rect { fill:#f5f5f5; }
+      .tronco rect { fill:#ffffff; stroke:#000000; stroke-width:2; }
+      .rama { stroke:#000000; stroke-width:1.5; fill:none; }
+      .etiq { font-size:11px; font-style:italic; fill:#666; letter-spacing:2px; }
+      .t_meta { text-anchor:middle; fill:#000; }
+      .paso circle { fill:#000; stroke:none; }
+      .paso text { fill:#fff; font-size:11px; font-weight:bold; }
+      .flecha { fill:#000; }
+      .retorno { stroke:#000; stroke-width:1.2; fill:none; stroke-dasharray:6 5; }
+    </style>
+
+    <!-- ===== TÍTULO INTERNO (opcional) ===== -->
+
+    <!-- ===== COPA / EFECTOS ===== -->
+    <text x="640" y="128" text-anchor="middle" class="etiq">EFECTOS — COPA (si no se recolectan datos)</text>
+
+    <!-- hojas -->
+    <g class="nodo"><rect x="60"  y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="150"><tspan x="150" y="189">Mecánicas poco</tspan><tspan x="150" y="206">intuitivas</tspan></text>
+    </g>
+    <g class="nodo"><rect x="260" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="350"><tspan x="350" y="181">Interfaz confusa;</tspan><tspan x="350" y="198">requiere manual</tspan><tspan x="350" y="215">para entenderla</tspan></text>
+    </g>
+    <g class="nodo"><rect x="460" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="550"><tspan x="550" y="189">Desinterés y</tspan><tspan x="550" y="206">abandono del jugador</tspan></text>
+    </g>
+    <g class="nodo"><rect x="660" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="750"><tspan x="750" y="189">Retrabajo y demoras</tspan><tspan x="750" y="206">en el desarrollo</tspan></text>
+    </g>
+    <g class="nodo"><rect x="860" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="950"><tspan x="950" y="189">No se transmite la</tspan><tspan x="950" y="206">conciencia ambiental</tspan></text>
+    </g>
+    <g class="nodo"><rect x="1060" y="150" width="180" height="110" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="1150"><tspan x="1150" y="181">Decisiones de diseño</tspan><tspan x="1150" y="198">basadas en suposiciones,</tspan><tspan x="1150" y="215">no en evidencia real</tspan></text>
+    </g>
+
+    <!-- ramas secundarias -->
+    <g class="rama">
+      <path d="M250,513 L150,160"/>
+      <path d="M250,513 L350,160"/>
+      <path d="M640,513 L550,160"/>
+      <path d="M640,513 L750,160"/>
+      <path d="M1030,513 L950,160"/>
+      <path d="M1030,513 L1150,160"/>
+    </g>
+
+    <!-- nudos de rama -->
+    <g class="nodo"><rect x="160" y="465" width="180" height="48" rx="6"/>
+      <text class="t_meta" font-size="10.5" x="250" y="494">JUGABILIDAD</text>
+    </g>
+    <g class="nodo"><rect x="550" y="465" width="180" height="48" rx="6"/>
+      <text class="t_meta" font-size="10.5" x="640" y="494">EXPERIENCIA DEL USUARIO</text>
+    </g>
+    <g class="nodo"><rect x="940" y="465" width="180" height="48" rx="6"/>
+      <text class="t_meta" font-size="10.5" x="1030" y="494">DESARROLLO / PRODUCTO</text>
+    </g>
+
+    <!-- tronco / ramas principales -->
+    <g class="rama">
+      <path d="M640,595 L250,475"/>
+      <path d="M640,595 L640,475"/>
+      <path d="M640,595 L1030,475"/>
+    </g>
+
+    <!-- ===== TRONCO / PROBLEMA CENTRAL ===== -->
+    <text x="640" y="575" text-anchor="middle" class="etiq">MÉTODO — TRONCO (problema central)</text>
+    <g class="tronco"><rect x="380" y="595" width="520" height="95" rx="8"/>
+      <text class="t_meta" x="640">
+        <tspan x="640" y="617" font-weight="bold" font-size="15" letter-spacing="2">PROBLEMA CENTRAL</tspan>
+        <tspan x="640" y="639" font-size="13.5">No se dispone de datos confiables de los usuarios</tspan>
+        <tspan x="640" y="657" font-size="13.5">para validar y mejorar el MVP del videojuego</tspan>
+        <tspan x="640" y="675" font-size="13.5">de educación ambiental (IA reactiva)</tspan>
+      </text>
+    </g>
+
+    <!-- suelo -->
+    <line x1="70" y1="705" x2="1210" y2="705" stroke="#000" stroke-width="1.5"/>
+
+    <!-- ===== RAÍCES / CAUSAS ===== -->
+    <text x="640" y="742" text-anchor="middle" class="etiq">CAUSAS — RAÍCES</text>
+
+    <!-- conexiones de raíces -->
+    <g class="rama">
+      <path d="M205,755 L520,700"/>
+      <path d="M490,755 L600,700"/>
+      <path d="M790,755 L680,700"/>
+      <path d="M1075,755 L760,700"/>
+    </g>
+
+    <g class="nodo causa"><rect x="80"  y="755" width="250" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="205"><tspan x="205" y="788">El MVP no se prueba</tspan><tspan x="205" y="805">con usuarios reales</tspan><tspan x="205" y="822">del público objetivo</tspan></text>
+    </g>
+    <g class="nodo causa"><rect x="365" y="755" width="250" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="490"><tspan x="490" y="788">No existe una metodología</tspan><tspan x="490" y="805">de observación estructurada</tspan><tspan x="490" y="822">(playtesting)</tspan></text>
+    </g>
+    <g class="nodo causa"><rect x="665" y="755" width="250" height="110" rx="6"/>
+      <text class="t_meta" font-size="13" x="790"><tspan x="790" y="788">Población objetivo sin definir:</tspan><tspan x="790" y="805">estudiantes desde</tspan><tspan x="790" y="822">1° de secundaria</tspan></text>
+    </g>
+    <g class="nodo causa"><rect x="950" y="755" width="250" height="110" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="1075"><tspan x="1075" y="788">Diseño y decisiones en base</tspan><tspan x="1075" y="805">a suposiciones del desarrollador,</tspan><tspan x="1075" y="822">no a evidencia recolectada</tspan></text>
+    </g>
+
+    <!-- ===== MÉTODO DE RECOLECCIÓN (flujo) ===== -->
+    <text x="640" y="915" text-anchor="middle" font-size="14" font-weight="bold" letter-spacing="3">CÓMO SE RECOLECTARÁN LOS DATOS — PLAYTESTING</text>
+
+    <!-- pasos -->
+    <g class="paso"><circle cx="180" cy="930" r="8"/><text x="180" y="934" text-anchor="middle">1</text></g>
+    <g class="nodo"><rect x="85" y="940" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="180"><tspan x="180" y="977" font-weight="bold">Desarrollar el MVP</tspan><tspan x="180" y="994">(Producto Viable Mínimo)</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="415" cy="930" r="8"/><text x="415" y="934" text-anchor="middle">2</text></g>
+    <g class="nodo"><rect x="320" y="940" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="415"><tspan x="415" y="971">Estudiantes de secundaria</tspan><tspan x="415" y="988">(desde 1° de secundaria)</tspan><tspan x="415" y="1005">juegan el videojuego</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="650" cy="930" r="8"/><text x="650" y="934" text-anchor="middle">3</text></g>
+    <g class="nodo"><rect x="555" y="940" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="650"><tspan x="650" y="971">Playtesting: observar</tspan><tspan x="650" y="988">sin intervenir; registrar</tspan><tspan x="650" y="1005">reacciones y decisiones</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="885" cy="930" r="8"/><text x="885" y="934" text-anchor="middle">4</text></g>
+    <g class="nodo"><rect x="790" y="940" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="885"><tspan x="885" y="971">Tomar notas de lo que</tspan><tspan x="885" y="988">funciona, confunde</tspan><tspan x="885" y="1005">o falla (feedback)</tspan></text>
+    </g>
+
+    <g class="paso"><circle cx="1120" cy="930" r="8"/><text x="1120" y="934" text-anchor="middle">5</text></g>
+    <g class="nodo"><rect x="1025" y="940" width="190" height="100" rx="6"/>
+      <text class="t_meta" font-size="12.5" x="1120"><tspan x="1120" y="971">Corregir el diseño</tspan><tspan x="1120" y="988">y repetir el ciclo</tspan><tspan x="1120" y="1005">(iteración)</tspan></text>
+    </g>
+
+    <!-- flechas entre pasos -->
+    <g class="flecha">
+      <line x1="280" y1="990" x2="297" y2="990" stroke="#000" stroke-width="1.5"/>
+      <polygon points="298,984 312,990 298,996"/>
+      <line x1="515" y1="990" x2="532" y2="990" stroke="#000" stroke-width="1.5"/>
+      <polygon points="533,984 547,990 533,996"/>
+      <line x1="750" y1="990" x2="767" y2="990" stroke="#000" stroke-width="1.5"/>
+      <polygon points="768,984 782,990 768,996"/>
+      <line x1="985" y1="990" x2="1002" y2="990" stroke="#000" stroke-width="1.5"/>
+      <polygon points="1003,984 1017,990 1003,996"/>
+    </g>
+
+    <!-- flecha de retorno -->
+    <path class="retorno" d="M1120,1040 L1120,1074 L180,1074 L180,1044"/>
+    <polygon class="flecha" points="180,1032 173,1048 187,1048"/>
+    <polygon class="flecha" points="1120,1038 1113,1052 1127,1052"/>
+    <text x="640" y="1098" text-anchor="middle" font-size="13" font-style="italic">Repetir el ciclo hasta que el MVP quede validado con los usuarios reales (iteración continua — Scrum)</text>
+  </svg>
+
+  <footer>Árbol de problemas · Recolección de datos: estudiantes de secundaria (desde 1°) · Playtesting + MVP · Notas para corrección</footer>
+</div>
+</body>
+</html>
